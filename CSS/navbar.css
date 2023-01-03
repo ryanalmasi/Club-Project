@@ -1,0 +1,7 @@
+.navbar a {
+    color: rgb(253, 214, 214);
+}
+
+.navbar a:hover {
+    color: rgba(130, 140, 236, 0.75)
+}
