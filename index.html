@@ -9,7 +9,7 @@
     <link href="./CSS/navbar.css" rel="stylesheet">
     <link href="./CSS/homepage.css" rel="stylesheet">
     <link href="./CSS/mainstyles.css" rel="stylesheet">
-    <script src="/function.js"></script>
+    <script src="function.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
 </head>
 <body>
@@ -19,26 +19,62 @@
         <div class="list-group">
           <ul>
             <li>
-              <a href="#" class="list-group-item navItems list-group-item-action py-2 ripple">HOMEPAGE</a>
-            </li>
-            <li>
               <a href="#" class="list-group-item navItems list-group-item-action py-2 ripple">
-                <span>HOMEPAGE</span>
+                <span>Home</span>
               </a>
             </li>
             <li>
               <a href="#" class="list-group-item navItems list-group-item-action py-2 ripple">
-                <span>HOMEPAGE</span>
+                <span>Dashboard</span>
+              </a>
+            </li>
+
+            <p class="navHeadings">REPORTS</p>
+            
+            <li>
+              <a href="#" class="list-group-item navItems list-group-item-action py-2 ripple">
+                <span>Users</span>
               </a>
             </li>
             <li>
               <a href="#" class="list-group-item navItems list-group-item-action py-2 ripple">
-                <span>HOMEPAGE</span>
+                <span>Demographics</span>
               </a>
             </li>
             <li>
               <a href="#" class="list-group-item navItems list-group-item-action py-2 ripple">
-                <span>HOMEPAGE</span>
+                <span>Metrics</span>
+              </a>
+            </li>
+
+            <p class="navHeadings">EVENTS</p>
+
+            <li>
+              <a href="#" class="list-group-item navItems list-group-item-action py-2 ripple">
+                <span>Events List</span>
+              </a>
+            </li>
+            <li>
+              <a href="#" class="list-group-item navItems list-group-item-action py-2 ripple">
+                <span>Comparisons</span>
+              </a>
+            </li>
+
+            <p class="navHeadings">CONFIGURE</p>
+
+            <li>
+              <a href="#" class="list-group-item navItems list-group-item-action py-2 ripple">
+                <span>Audience</span>
+              </a>
+            </li>
+            <li>
+              <a href="#" class="list-group-item navItems list-group-item-action py-2 ripple">
+                <span>Metrics</span>
+              </a>
+            </li>
+            <li>
+              <a href="#" class="list-group-item navItems list-group-item-action py-2 ripple">
+                <span>Metrics</span>
               </a>
             </li>
         </ul>
@@ -46,11 +82,11 @@
       </div>
     </nav>
 
-    <nav class="navbar navbar-dark bg-dark fixed-top">
+    <nav class="navbar topbar navbar-dark bg-dark fixed-top">
       <div class="container-fluid">
-        <span class="navbar-brand">
+        <a class="navbar-brand" href="#">
           CLUB METRICS
-        </span>
+        </a>
         <form class="d-none d-md-flex input-group w-auto my-auto">
           <input autocomplete="off"
                  type="search"
@@ -61,6 +97,17 @@
             <img src="./sources/icons8-search-more-24.png" style="width: 7.5%;">
           </span>
         </form>
+
+        <ul class="navbar-nav ms-auto d-flex flex-row">
+          <li class="nav-item dropdown">
+            <a class="nav-link me-3 me-lg-0 dropdown-toggle hidden-arrow"
+               role="button"
+               data-mdb-toggle="dropdown"
+               aria-expanded="false">
+            
+            </a>
+          </li>
+        </ul>
       </div>
     </nav>
 </body>

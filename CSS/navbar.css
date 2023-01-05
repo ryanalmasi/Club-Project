@@ -1,16 +1,17 @@
 .sidebar {
+    box-shadow: 0 2px 5px rgba(61, 61, 61, 0.75);
     position: fixed;
     top: 0;
     bottom: 0;
     left: 0;
-    width: 15%;
-    padding-top: 7.5%;
+    width: 12.5%;
+    padding-top: 6%;
     text-align: center;
 }
 
-.navbar {
-    font-family: 'Roboto Condensed Light'
-    font-size: 115%;
+.topbar {
+    padding: 0.5% 0 1.5% 0;
+    box-shadow: 0 2px 5px rgba(61, 61, 61, 0.75);
 }
 
 .list-group {
@@ -21,21 +22,17 @@
 }
 
 .navItems {
+    font-size: 85%;
     color: white;
     background-color: #212529;
-}
-
-.navbar li {
-    padding-bottom: 40%;
 }
 
 .navbar ul {
     padding: 0;
     margin: 0;
-
 }
 
-.navbar a:hover {
+.sidebar a:hover {
     border-radius: 10px;
 }
 
@@ -45,4 +42,10 @@
 
 .navbar .navbar-brand {
     padding-left: 1%;
+}
+
+.sidebar .navHeadings {
+    font-family: 'Roboto Condensed Light';
+    margin: 12% 0 10% 0;
+    color: rgb(134, 134, 134);
 }
