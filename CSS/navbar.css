@@ -1,7 +1,39 @@
-.navbar a {
-    color: rgb(253, 214, 214);
+.sidebar {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 10%;
+    text-align: center;
 }
 
-.navbar a:hover {
-    color: rgba(130, 140, 236, 0.75)
+.navbar {
+    font-family: 'Roboto Condensed Light'
+    font-size: 115%;
+}
+
+.list-group {
+    margin-left: 5%;
+    margin-right: 5%;
+    --bs-list-group-border-color: none;
+    --bs-list-group-action-hover-bg: grey;
+}
+
+.navItems {
+    color: white;
+    background-color: #212529;
+}
+
+.navbar li {
+    padding-bottom: 30%;
+}
+
+.navbar ul {
+    padding: 0;
+    margin: 0;
+
+}
+
+.navbar a {
+    border-radius: 10%;
 }
