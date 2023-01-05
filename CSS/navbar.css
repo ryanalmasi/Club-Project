@@ -3,7 +3,8 @@
     top: 0;
     bottom: 0;
     left: 0;
-    width: 10%;
+    width: 15%;
+    padding-top: 7.5%;
     text-align: center;
 }
 
@@ -25,7 +26,7 @@
 }
 
 .navbar li {
-    padding-bottom: 30%;
+    padding-bottom: 40%;
 }
 
 .navbar ul {
@@ -34,6 +35,14 @@
 
 }
 
-.navbar a {
-    border-radius: 10%;
+.navbar a:hover {
+    border-radius: 10px;
+}
+
+.input-group-text {
+    background-color: #212529;
+}
+
+.navbar .navbar-brand {
+    padding-left: 1%;
 }
