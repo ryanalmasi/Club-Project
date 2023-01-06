@@ -1,14 +1,14 @@
 @font-face {
     font-family: 'Inter';
-    src: url('/sources/Inter/static/Inter-Light.ttf');
+    src: url('../sources/Inter/static/Inter-Light.ttf');
 }
 
 @font-face {
     font-family: 'Roboto Condensed Light';
-    src: url('/sources/Roboto_Condensed/RobotoCondensed-Light.ttf')
+    src: url('../sources/Roboto_Condensed/RobotoCondensed-Light.ttf');
 }
 
 body {
     background-color: #212529;
-    font-family: 'Inter', arial, monospace, sans-serif;
+    font-family: 'Inter', 'Roboto Condensed Light', Arial, monospace, sans-serif;
 }
